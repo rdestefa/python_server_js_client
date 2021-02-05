@@ -1,0 +1,115 @@
+<!-- Ryan DeStefano (rdestefa) -->
+<!-- Conor Holahan  (cholahan) -->
+<!-- CSE 30332 Final Project   -->
+<!-- New User Page             -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TV Database - New User</title>
+        
+        <!-- Our CSS -->
+        <link href="../css/main.css" type="text/css" rel="stylesheet">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">Final Project</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="user.html">Users</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="search.html?name">By Name</a></li>
+                                <li><a href="search.html?genre">By Genre</a></li>
+                                <li><a href="search.html?rating">By Rating</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="search.html?multiple">Multiple Criteria</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- New User Form -->
+        <form class="bsr-form " action="">
+	        <div class="form-group">
+		        <label for="tex-input">User Name</label>
+		        <input name="text-input" type="text" class="form-control" id="user_name">
+	        </div>
+            <div class="form-group">
+		        <label for="tex-input">Name</label>
+		        <input name="text-input" type="text" class="form-control" id="name">
+	        </div>
+            <div class="form-group">
+		        <label for="tex-input">Date of Birth (MM/DD/YYYY)</label>
+		        <input name="text-input" type="text" class="form-control" id="date_of_birth">
+	        </div>
+            <div class="form-group">
+		        <label for="tex-input">Email</label>
+		        <input name="text-input" type="text" class="form-control" id="email">
+	        </div>
+            <div class="form-group">
+		        <label for="tex-input">Favorite Shows (Comma Separated)</label>
+		        <input name="text-input" type="text" class="form-control" id="favorite_shows">
+	        </div><div class="form-group">
+		        <label for="tex-input">Favorite Genres (Comma Separated)</label>
+		        <input name="text-input" type="text" class="form-control" id="favorite_genres">
+	        </div><div class="form-group">
+		        <label for="tex-input">Recently Watched</label>
+		        <input name="text-input" type="text" class="form-control" id="recently_watched">
+	        </div><div class="form-group">
+		        <label for="tex-input">Best Day to Watch</label>
+		        <input name="text-input" type="text" class="form-control" id="best_day_to_watch">
+	        </div>
+            </div><div class="form-group">
+		        <label for="tex-input">Preferred Episode Length</label>
+		        <input name="text-input" type="text" class="form-control" id="preferred_episode_length">
+	        </div>
+            <button type="button" class="btn btn-default" id="clear-button">Clear Form</button>
+	        <button type="button" class="btn btn-primary" id="submit-button">Create User</button>
+        </form>
+    
+        <!-- Request Message Box -->
+        <div class="container" id="message_box"></div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <hr>
+                <p class="text-muted" style="text-align:center;">CSE 30332 - Programming Paradigms</p>
+            </div>
+        </footer>
+    
+        <!-- jQuery Javascript Library (required by Bootstrap) -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Our JavaScript -->
+        <script type="text/javascript" src="../scripts/new-user.js"></script>
+    </body>
+    
+</html>

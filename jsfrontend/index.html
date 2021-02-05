@@ -1,0 +1,95 @@
+<!-- Ryan DeStefano (rdestefa) -->
+<!-- Conor Holahan  (cholahan) -->
+<!-- CSE 30332 Final Project   -->
+<!-- Home Page                 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TV Database - Homepage</title>
+        
+        <!-- Our CSS -->
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body id="homepage">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">Final Project</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="pages/user.html">Users</a></li>
+                        <li><a href="pages/new-user.html">Add User</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="pages/search.html?name">By Name</a></li>
+                                <li><a href="pages/search.html?genre">By Genre</a></li>
+                                <li><a href="pages/search.html?rating">By Rating</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="pages/search.html?multiple">Multiple Criteria</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class='jumbotron' style='background-size: cover; background-position: top center;
+                                    background: url("https://media.gq.com/photos/5df5a3794e7a380009b83bbd/16:9/w_2560%2Cc_limit/BestShows.jpg");'>
+            <h1 style='color:#ffffff;text-shadow: 1px 1px gray;text-align: center;' class='jumbotronic'>TV Shows Database</h1>
+            <h4 style=' text-shadow: 1px 1px gray; color:#ffffff;text-align: center;'>Explore different TV shows to find exactly what you're looking for</h4>
+        </div>
+        
+        <!-- TV Shows -->
+        <div id="shows_list" class="nav_grid"></div>
+        
+        <!-- Site Description -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">About</h5>
+            </div>
+            <div class="panel-body">
+                This site can be used to explore several aspects of a number of TV shows. One can store their favorite or previously watched shows, search for new ones based on genre, air time, and other criteria, or simply explore the entire database.
+            </div>
+            <div class="panel-footer">
+                Ryan DeStefano (rdestefa) - Conor Holahan (cholahan)
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <hr>
+                <p class="text-muted" style="text-align:center;">CSE 30332 - Programming Paradigms</p>
+            </div>
+        </footer>
+    
+        <!-- jQuery Javascript Library (required by Bootstrap) -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Our JavaScript -->
+        <script type="text/javascript" src="scripts/main.js"></script>
+    </body>
+</html>

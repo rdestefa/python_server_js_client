@@ -1,0 +1,42 @@
+/* Use CSS Grid to Align Images */
+.nav_grid {
+    max-width: 1350px;
+    margin: 30px auto;
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    /* Define Rows */
+    grid-auto-rows: 300px;
+    /* Define Columns */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 1.5em;
+    justify-items: center;
+}
+
+.nav_item {
+    transition: transform 0.3s;
+}
+
+.nav_item:hover {
+    transform: scale(1.1);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.btn-xs {
+    height: 21px;
+}
+
+.show_list {
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.show_list:hover {
+    opacity: 0.6;
+}
