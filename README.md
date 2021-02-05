@@ -1,11 +1,8 @@
-# CSE 30332 Final Project
+# Python Server With JavaScript Client
 
 ### Contributors
 
-- Ryan DeStefano (rdestefa)
-- Conor Holahan &nbsp;(cholahan)
-
-All code was written together in person due to Zoom fatigue, so all commits were made from the same account.
+- Ryan DeStefano
 
 ---
 
@@ -182,11 +179,3 @@ final_project
     - Only pure JavaScript was used in addition to some basic CSS
     - Bootstrap templates were used for each page to make them look more aesthetically pleasing
     - The front end builds each page differently depending on the information it receives and adjusts depending on the requests made
-
----
-
-### Demonstration
-
-- [Code Walkthrough Video](http://youtube.com/watch?v=3ldkjBpdGzQ)
-- [UI Demonstration Video](https://www.youtube.com/watch?v=ues5eVBaFSY&t=3s)
-- [Presentation Slides](https://gitlab.com/rdestefa/final_project/-/blob/master/presentation_slides.pdf)
