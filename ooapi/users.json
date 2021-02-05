@@ -1,0 +1,47 @@
+{
+  "ryan-destefano": {
+    "name": "Ryan DeStefano",
+    "id": "ryan-destefano",
+    "dob": "07-16-2000",
+    "email": "rdestefa@nd.edu",
+    "favorite-shows": [
+      "avatar-the-last-airbender",
+      "the-legend-of-korra",
+      "the-sopranos",
+      "rick-and-morty",
+      "dragon-ball-super",
+      "the-office"
+    ],
+    "favorite-genres": [
+      "Action",
+      "Adventure",
+      "Anime",
+      "Fantasy",
+      "Comedy"
+    ],
+    "recently-watched": "the-sopranos",
+    "best-day-to-watch": "wednesday",
+    "preferred-episode-length": 30
+  },
+  "conor-holahan": {
+    "name": "Conor Holahan",
+    "id": "conor-holahan",
+    "dob": "12-06-1999",
+    "email": "cholahan@nd.edu",
+    "favorite-shows": [
+      "the-office",
+      "the-wire",
+      "the-sopranos",
+      "seinfeld",
+      "rick-and-morty"
+    ],
+    "favorite-genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "recently-watched": "the-wire",
+    "best-day-to-watch": "thursday",
+    "preferred-episode-length": 60
+  }
+}
